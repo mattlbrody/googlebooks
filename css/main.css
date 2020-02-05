@@ -1,0 +1,34 @@
+html {
+    overflow-x: hidden;
+}
+body {
+    background-image: url('../img/bg.jpg');
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+/*user input*/
+#search {
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+}
+/*submit button*/
+/*results display*/
+#results {
+    font-family: sans-serif;
+    text-align: center;
+}
+/*JavaScript created items*/
+.item {
+    height: 250px;
+    padding-top: 20px;
+    border-bottom: 1px solid gray;
+}
+.item img {
+    width: 128px;
+    height: 200px;
+    float: right;
+}
